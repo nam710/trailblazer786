@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable-v24/email_focussed.xml" value="0.1" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1395" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable-v24/profile_focussed.xml" value="0.1" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable/appIcon_background.xml" value="0.137" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable/custom_email_icon.xml" value="0.1" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable/custom_input.xml" value="0.137" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable/custom_profile_icon.xml" value="0.1" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable/email.xml" value="0.1" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable/home.xml" value="0.1395" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1395" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/drawable/profile.xml" value="0.1395" />
@@ -13,10 +20,14 @@
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/activity_class.xml" value="0.22" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/activity_create_class.xml" value="0.13858695652173914" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/activity_my_library.xml" value="0.320596458527493" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/activity_splash.xml" value="0.18385416666666668" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/activity_timetable.xml" value="0.15942028985507245" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/appbar.xml" value="0.1828125" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/class_row.xml" value="0.22" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/fragment_class_chat.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/fragment_class_overview.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/fragment_class_people.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="..\:/Users/naman/AndroidStudioProjects/TRLBLZRS/app/src/main/res/layout/fragment_settings.xml" value="0.16666666666666666" />

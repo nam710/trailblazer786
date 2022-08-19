@@ -1,32 +1,34 @@
 package com.example.trlblzrs;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ListView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager2.widget.ViewPager2;
+
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
 
 public class class_activity extends AppCompatActivity {
+    TabLayout tab;
+    ViewPager2 viewPager;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_class);
-        Button assignmentBtn = findViewById(R.id.assignmentsBtn);
-        assignmentBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(class_activity.this,Assignment_activity.class);
-                startActivity(i);
 
-            }
-        });
+        tab = findViewById(R.id.tab);
+        viewPager = findViewById(R.id.viewPager);
 
-
+        ViewPagerClassAdapter adapter = new ViewPagerClassAdapter(getSupportFragmentManager(),getLifecycle());
+        viewPager.setAdapter(adapter);
+        new TabLayoutMediator(tab,viewPager,(tab, position) -> {
+            String[] titles = new String[]{"Overview","People","Chat"};
+            tab.setText(titles[position]);
+            viewPager.setCurrentItem(position);
+        }).attach();
+        viewPager.setCurrentItem(0);
 
     }
 }

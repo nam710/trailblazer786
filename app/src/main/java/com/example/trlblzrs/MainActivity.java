@@ -1,5 +1,9 @@
 package com.example.trlblzrs;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,14 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-
-
-import android.os.Bundle;
-import android.view.Gravity;
-import android.view.MenuItem;
-
 import com.example.trlblzrs.databinding.ActivityMainBinding;
-import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
@@ -77,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
                 else if (id==R.id.sample2){
 
                 }
-                else if (id==R.id.sample3){
+                else if (id==R.id.optLibrary){
+                    openActivity(MyLibrary.class);
 
                 }
                 else{//last option sample 4
@@ -99,6 +97,12 @@ public class MainActivity extends AppCompatActivity {
         else{
             super.onBackPressed();
         }
+    }
+
+    private void openActivity(Class c){
+        Intent intent=new Intent(MainActivity.this,c);
+        startActivity(intent);
+
     }
 
 

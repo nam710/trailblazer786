@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".ClassPeopleFragment">
+
+    <!-- TODO: Create ListView to manage enrolled student list -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="People Fragment" />
+
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/textView2"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:padding="5dp"-->
+    <!--            android:text="Enrolled Students"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="24sp"-->
+    <!--            app:layout_constraintEnd_toStartOf="@+id/button2"-->
+    <!--            app:layout_constraintHorizontal_bias="0.5"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/button2"-->
+    <!--            style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:padding="5dp"-->
+    <!--            android:text="ENROLL REQUESTS"-->
+
+    <!--            app:layout_constraintBottom_toBottomOf="@+id/textView2"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.5"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/textView2"-->
+    <!--            app:layout_constraintTop_toTopOf="@+id/textView2" />-->
+
+    <!--        <androidx.core.widget.NestedScrollView-->
+    <!--            android:id="@+id/NSV"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="8dp"-->
+    <!--            android:maxHeight="200dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/button2">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/LL"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:orientation="vertical"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                app:layout_constraintStart_toStartOf="parent">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="10dp"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:text="Ali"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="18sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="10dp"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:text="Ashutosh"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="18sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="10dp"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:text="Diva"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="18sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="10dp"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:text="Juhi"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="18sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="10dp"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:text="Naman"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="18sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="10dp"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:text="Yusuf"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="18sp" />-->
+
+
+    <!--            </LinearLayout>-->
+
+    <!--        </androidx.core.widget.NestedScrollView>-->
+
+
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</LinearLayout>
