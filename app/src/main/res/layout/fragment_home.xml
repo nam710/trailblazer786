@@ -26,12 +26,20 @@
             android:layout_gravity="center"
             />
 
-        <CalendarView
-            android:id="@+id/my_calendar"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:elevation="4dp"
-            android:minDate="01/01/2020" />
+            android:layout_height="320dp"
+            android:orientation="vertical">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:nestedScrollingEnabled="true"
+                android:divider="@color/black"
+                android:id="@+id/TTlist">
+            </ListView>
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/timeTableEditBtn"

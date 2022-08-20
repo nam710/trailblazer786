@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CalendarView;
+import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -29,7 +30,7 @@ public class HomeFragment extends Fragment {
     Context thisContext;
     private Button createClassBtn;
     private Button timeTableBtn;
-    CalendarView calendarView;
+    ListView listview;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -37,6 +38,8 @@ public class HomeFragment extends Fragment {
 
     RecyclerView recyclerView;
     ArrayList<ClassModel> holder;
+
+    ArrayList<TTList> arrayList = new ArrayList<>();
 
     public HomeFragment() {
         // Required empty public constructor
@@ -102,7 +105,21 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        calendarView = container.findViewById(R.id.my_calendar);
+        listview= view.findViewById(R.id.TTlist);
+
+        arrayList.add(new TTList("Subject1","00:00"));
+        arrayList.add(new TTList("Subject2","00:00"));
+        arrayList.add(new TTList("Subject3","00:00"));
+        arrayList.add(new TTList("Subject4","00:00"));
+        arrayList.add(new TTList("Subject5","00:00"));
+        arrayList.add(new TTList("Subject6","00:00"));
+        arrayList.add(new TTList("Subject7","00:00"));
+        arrayList.add(new TTList("Subject8","00:00"));
+        arrayList.add(new TTList("Subject9","00:00"));
+
+        TTListCustomAdapter listAdapter = new TTListCustomAdapter(getContext(),R.layout.timetable_list_item,arrayList);
+        listview.setAdapter(listAdapter);
+
 
 
         recyclerView = view.findViewById(R.id.recyclerView);
