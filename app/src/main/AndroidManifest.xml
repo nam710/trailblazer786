@@ -19,6 +19,9 @@
         android:theme="@style/Theme.TRLBLZRS"
         tools:targetApi="31">
         <activity
+            android:name=".LibrarySubjects"
+            android:exported="false" />
+        <activity
             android:name=".MyLibrary"
             android:exported="false" />
         <activity
