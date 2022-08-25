@@ -49,6 +49,7 @@
                 app:boxCornerRadiusTopStart="15dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/cla"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Example:Class 10" />
@@ -72,6 +73,7 @@
                 app:boxCornerRadiusTopStart="15dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sub"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Example:Maths" />
