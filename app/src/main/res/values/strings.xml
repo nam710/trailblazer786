@@ -101,4 +101,11 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="EMAIL">EMAIL</string>
+    <string name="register">REGISTER</string>
+    <string name="name">NAME</string>
+    <string name="PASSWORD">PASSWORD</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="forgotpass">FORGOT PASSWORD?</string>
+    <string name="credits">Created by trailblazer786</string>
 </resources>
