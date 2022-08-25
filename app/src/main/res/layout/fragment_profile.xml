@@ -62,8 +62,7 @@
                 android:layout_height="wrap_content"
                 app:dividerThickness="2dp"
                 app:dividerInsetStart="8dp"
-                app:dividerInsetEnd="8dp"
-                app:dividerColor="@color/black"/>
+                app:dividerInsetEnd="8dp" />
 
         </LinearLayout>
 
@@ -82,7 +81,6 @@
                 android:layout_margin="10dp"
                 android:text="@string/edit_profile"
                 android:textStyle="bold"
-                android:textColor="@color/black"
                 android:textSize="20sp"
                 android:gravity="center" />
 
@@ -99,7 +97,7 @@
                 android:hint="@string/full_name"
                 android:inputType="textPersonName"
                 android:minHeight="48dp"
-                android:text="@string/naman_chawla"
+                android:text="Abcd123"
                 tools:ignore="DuplicateSpeakableTextCheck" />
 
 
@@ -116,7 +114,7 @@
                 android:drawablePadding="10dp"
                 android:hint="@string/email_id"
                 android:minHeight="48dp"
-                android:text="@string/namanchawla029_gmail_com" />
+                android:text="abcd123@gmail.com" />
 
             <Button
                 android:id="@+id/saveBtn"

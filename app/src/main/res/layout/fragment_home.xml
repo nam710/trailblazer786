@@ -21,7 +21,6 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:text="Classes Scheduled"
-            android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_gravity="center"
             />
@@ -54,10 +53,9 @@
         <com.google.android.material.divider.MaterialDivider
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:dividerThickness="2dp"
-            app:dividerInsetStart="8dp"
             app:dividerInsetEnd="8dp"
-            app:dividerColor="@color/black"/>
+            app:dividerInsetStart="8dp"
+            app:dividerThickness="2dp" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -69,7 +67,6 @@
                 android:layout_height="wrap_content"
                 android:padding="5dp"
                 android:text="Your Classrooms"
-                android:textColor="@color/black"
 
                 android:textSize="24sp"
 

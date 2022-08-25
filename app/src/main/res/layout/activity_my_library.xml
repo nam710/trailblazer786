@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DFFBF9"
     android:contentDescription="@string/app_name"
     tools:context=".MyLibrary">
 
@@ -19,7 +18,6 @@
             android:gravity="start"
             android:padding="5dp"
             android:text="Library"
-            android:textColor="@color/black"
             android:textSize="28sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +31,6 @@
             android:gravity="start"
             android:paddingStart="5dp"
             android:text="Select a class to upload Book pdf and other subject related material"
-            android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +41,7 @@
             android:id="@+id/materialCardView14"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
@@ -62,7 +59,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Class 1"
-                android:textColor="@color/black"
                 android:textSize="20sp" />
 
         </com.google.android.material.card.MaterialCardView>
@@ -71,7 +67,7 @@
             android:id="@+id/materialCardView13"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
@@ -89,8 +85,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 2"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -98,7 +93,7 @@
             android:id="@+id/materialCardView15"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
@@ -116,8 +111,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 3"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -125,7 +119,7 @@
             android:id="@+id/materialCardView16"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
@@ -143,8 +137,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 4"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -152,7 +145,7 @@
             android:id="@+id/materialCardView17"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
@@ -170,8 +163,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 5"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -179,7 +171,7 @@
             android:id="@+id/materialCardView18"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             app:cardUseCompatPadding="true"
@@ -197,8 +189,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 6"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -206,7 +197,7 @@
             android:id="@+id/materialCardView19"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             android:clickable="true"
@@ -224,8 +215,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 7"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -233,7 +223,7 @@
             android:id="@+id/materialCardView20"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             android:clickable="true"
@@ -251,8 +241,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 8"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -260,7 +249,7 @@
             android:id="@+id/materialCardView21"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:clickable="true"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackgroundBorderless"
@@ -278,8 +267,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 9"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -287,7 +275,7 @@
             android:id="@+id/materialCardView22"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             android:clickable="true"
             android:focusable="true"
@@ -305,8 +293,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 10"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -314,7 +301,7 @@
             android:id="@+id/materialCardView23"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             app:cardCornerRadius="15dp"
             android:clickable="true"
@@ -332,8 +319,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 11"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
@@ -341,7 +327,7 @@
             android:id="@+id/materialCardView24"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:elevation="5dp"
+            app:cardElevation="5dp"
             android:outlineProvider="background"
             android:clickable="true"
             android:focusable="true"
@@ -359,8 +345,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Class 12"
-                android:layout_gravity="center"
-                android:textColor="@color/black"/>
+                android:layout_gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
 
