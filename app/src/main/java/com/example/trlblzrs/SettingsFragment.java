@@ -1,12 +1,21 @@
 package com.example.trlblzrs;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.Locale;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -60,5 +69,89 @@ public class SettingsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_settings, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        CardView studentContribute = view.findViewById(R.id.studentContributeBtn);
+        studentContribute.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(),RegisterAsStudentCon.class);
+                startActivity(i);
+            }
+        });
+
+        CardView changeLang = view.findViewById(R.id.changeLanguage);
+        changeLang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                changeLanguage();
+            }
+        });
+    }
+
+    private void changeLanguage(){
+        final String languages[] = {"English","Assamese","Bengali","Bhojpuri","Bihari","Gujrati","Hindi","Kannada","Urdu"};
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(getContext());
+        mBuilder.setTitle("Choose Language");
+        mBuilder.setSingleChoiceItems(languages, -1, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                if(i == 0){
+                    setLocale("");
+                    getActivity().recreate();
+                }
+                else if(i == 1){
+                    setLocale("as-rIN");
+                    getActivity().recreate();
+                }
+                else if(i == 2){
+                    setLocale("bn");
+                    getActivity().recreate();
+                }
+                else if(i == 3){
+                    setLocale("b+bho");
+                    getActivity().recreate();
+                }
+                else if(i == 4){
+                    setLocale("bh");
+                    getActivity().recreate();
+                }
+                else if(i == 5){
+                    setLocale("gu");
+                    getActivity().recreate();
+                }
+                else if(i == 6){
+                    setLocale("hi");
+                    getActivity().recreate();
+                }
+                else if(i == 7){
+                    setLocale("kn");
+                    getActivity().recreate();
+                }
+                else if(i == 8){
+                    setLocale("ur");
+                    getActivity().recreate();
+                }
+            }
+        });
+        mBuilder.create();
+        mBuilder.show();
+    }
+
+    private void setLocale(String ur) {
+
+        Locale locale = new Locale(ur);
+        Locale.setDefault(locale);
+
+        Configuration configuration = new Configuration();
+        configuration.locale = locale;
+        getActivity().getBaseContext().getResources().updateConfiguration(configuration,getActivity().getBaseContext().getResources().getDisplayMetrics());
+
+
+
     }
 }

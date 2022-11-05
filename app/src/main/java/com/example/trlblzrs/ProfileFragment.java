@@ -47,10 +47,12 @@ public class ProfileFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
+//    private static final String NAME_KEY = "names";
 
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+//    private String mName;
 
     public ProfileFragment() {
         // Required empty public constructor
@@ -62,14 +64,18 @@ public class ProfileFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
+//     * @param names Parameter 3.
      * @return A new instance of fragment ProfileFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ProfileFragment newInstance(String param1, String param2) {
+    public static ProfileFragment newInstance(String param1, String param2
+//            ,String names
+    ) {
         ProfileFragment fragment = new ProfileFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
+//        args.putString(NAME_KEY, names);
         fragment.setArguments(args);
         return fragment;
     }
@@ -80,6 +86,8 @@ public class ProfileFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+//            mName = getArguments().getString(NAME_KEY);
+//            name.setText(mName);
         }
 
 //        mAuth = FirebaseAuth.getInstance();
@@ -115,6 +123,13 @@ public class ProfileFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_profile, container, false);
 
     }
+
+//    @Override
+//    public void onSaveInstanceState(@NonNull Bundle outState) {
+//        super.onSaveInstanceState(outState);
+//        outState.putCharSequence(NAME_KEY,name.getText());
+//    }
+
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {

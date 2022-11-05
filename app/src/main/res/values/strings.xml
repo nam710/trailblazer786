@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">TRLBLZRS</string>
+    <string name="app_name" translatable="false">TRLBLZRS</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="naman_chawla">Naman Chawla</string>
+    <string name="naman_chawla" translatable="false">Naman Chawla</string>
     <string name="edit_profile">Edit Profile</string>
     <string name="save">Save</string>
     <string name="email_id">Email ID</string>
-    <string name="namanchawla029_gmail_com">namanchawla029@gmail.com</string>
+    <string name="namanchawla029_gmail_com" translatable="false">namanchawla029@gmail.com</string>
     <string name="full_name">Full Name</string>
     <string name="title_activity_timetable">Timetable</string>
     <string name="OpenDrawer">Open navigation drawer</string>
     <string name="CloseDrawer">Close navigation drawer</string>
-    <string name="large_text">
+    <string name="large_text" translatable="false">
         "Material is the metaphor.\n\n"
 
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."

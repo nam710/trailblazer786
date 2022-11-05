@@ -60,10 +60,59 @@
             </androidx.cardview.widget.CardView>
 
             <View
+                android:id="@+id/divider0"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorOnPrimary" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/changeLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="20dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Change Language"
+                    app:drawableEndCompat="@drawable/language" />
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorOnPrimary" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/studentContributeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="20dp">
+
+                <TextView
+                    android:id="@+id/textView00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Register as a Student Contributor"
+                    app:drawableEndCompat="@drawable/student_contribute" />
+            </androidx.cardview.widget.CardView>
+
+            <View
                 android:id="@+id/divider2"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
                 android:background="@color/colorOnPrimary" />
+
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"

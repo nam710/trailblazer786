@@ -82,6 +82,15 @@ public class ClassOverviewFragment extends Fragment {
             }
         });
 
+        Button startMeetBtn = view.findViewById(R.id.startMeetBtn);
+        startMeetBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getContext(),VideoDashBoard.class);
+                startActivity(i);
+            }
+        });
+
 
     }
 }

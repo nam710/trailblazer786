@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="201dp"
-        android:layout_height="51dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -28,12 +28,13 @@
 
     <EditText
         android:id="@+id/editTextName"
-        android:layout_width="344dp"
+        android:layout_width="0dp"
         android:layout_height="53dp"
         android:layout_alignStart="@+id/textView3"
         android:layout_alignEnd="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
         android:background="@drawable/edittextborder"
         android:backgroundTint="#86BCC4F1"
         android:drawableStart="@drawable/ic_person"
@@ -55,12 +56,13 @@
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="344dp"
-        android:layout_height="53dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView3"
         android:layout_alignEnd="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
         android:background="@drawable/edittextborder"
         android:backgroundTint="#86BCC4F1"
         android:drawableStart="@drawable/ic_email"
@@ -82,12 +84,13 @@
 
     <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="344dp"
-        android:layout_height="53dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView3"
         android:layout_alignEnd="@+id/textView3"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
         android:background="@drawable/edittextborder"
         android:backgroundTint="#86BCC4F1"
         android:drawableStart="@drawable/ic_security"
